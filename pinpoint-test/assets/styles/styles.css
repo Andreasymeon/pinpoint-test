@@ -1,0 +1,29 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --main-green: #2fa38d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+}
+
+.hero-container {
+  width: 100vw;
+  height: auto;
+
+  background-image: url("../images/team-pooltable.webp");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}

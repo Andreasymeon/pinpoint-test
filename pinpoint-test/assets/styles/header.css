@@ -1,0 +1,136 @@
+header {
+  width: 100vw;
+  height: 10vh;
+}
+
+.nav {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  background-color: var(--white);
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  height: 50%;
+  margin: 0 5vw;
+}
+
+.logo-container img {
+  height: 100%;
+  width: auto;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  top: 10vh;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding: 5vw;
+}
+
+.nav-item {
+  margin: 2vw 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav-link:hover {
+  color: var(--main-green);
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50%;
+  margin: 0 5vw;
+}
+
+.nav-btn {
+  height: 90%;
+  width: 100px;
+  margin: 0 5vw;
+  background-color: var(--main-green);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.burger-menu {
+  cursor: pointer;
+  width: auto;
+}
+
+.burger-menu div {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.close .line:nth-child(1) {
+  transform: translate(0, 6px) rotate(-45deg);
+  transition: transform 0.4s ease-in-out;
+}
+
+.close .line:nth-child(2) {
+  opacity: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.close .line:nth-child(3) {
+  transform: translate(0, -6px) rotate(45deg);
+  transition: transform 0.4s ease-in-out;
+}
+
+.show.menu {
+  display: block;
+  opacity: 1;
+  /* transform: translateY(100%); */
+  transition: transform 0.5s ease-in-out;
+  background-color: var(--white);
+}
+
+@media (min-width: 1000px) {
+  .burger-menu {
+    display: none;
+  }
+  .menu {
+    display: block;
+    position: relative;
+    top: 0;
+    width: auto;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin: 0 2vw;
+  }
+
+  .nav-btn {
+    margin: 0;
+  }
+}
