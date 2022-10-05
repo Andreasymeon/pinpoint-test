@@ -1,0 +1,45 @@
+.career-container {
+  display: flex;
+  flex-direction: column;
+}
+.cta-container {
+  width: 100%;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  margin: 5vw 0;
+  text-align: center;
+}
+
+.cta-heading {
+  padding: 10vw 5vw;
+  /* font-size: 5vw; */
+}
+
+.cta-btn {
+  margin-bottom: 10vw;
+}
+
+.disclaimer {
+  font-weight: bold;
+  padding: 10vw 0 0;
+}
+
+@media (min-width: 700px) {
+  .cta-container {
+    width: 45%;
+    margin: 0;
+    padding: 0vw;
+  }
+
+  .cta-heading {
+    padding: 5vw;
+  }
+
+  .career-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Large screen */
