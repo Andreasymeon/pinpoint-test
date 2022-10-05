@@ -1,0 +1,25 @@
+.reviews-container {
+  text-align: center;
+}
+
+.review-quote {
+  padding: 10vw 0 8vw;
+}
+.review-descr {
+  padding: 3.5vw 0 3.2vw;
+  font-size: 0.7em;
+}
+
+.glassdoor-btn {
+  background-color: var(--gd-green);
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .review-quote {
+    padding: 4.5vw 0 1.5vw;
+  }
+  .review-descr {
+    padding: 3.5vw 0 3.2vw;
+  }
+}
