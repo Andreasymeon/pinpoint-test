@@ -33,12 +33,6 @@
   border-radius: 10px;
 }
 
-.panel-content:nth-child(3) figcaption {
-  position: absolute;
-  width: 50%;
-  text-align: center;
-}
-
 .caption-heading {
   padding: 7vw;
   line-height: 1.5em;

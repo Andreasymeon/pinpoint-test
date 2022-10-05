@@ -1,2 +1,22 @@
 .testimonials-container {
 }
+
+.testimonials-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.testimonials-container figcaption {
+  width: 35%;
+  padding: 7vw 5vw;
+}
+
+.testimonial-quote {
+  font-size: 2vw;
+  line-height: 1.5em;
+}
+
+.testimonial-author {
+  padding: 2.5vw 0;
+}
