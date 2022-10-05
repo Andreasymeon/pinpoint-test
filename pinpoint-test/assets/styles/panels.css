@@ -1,15 +1,98 @@
 .panels-container {
   display: flex;
   flex-direction: column;
+  padding: 5vw 0;
 }
+
 .panel-content {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2vw;
 }
 
-.panel-media {
-  background-image: url("../images/woman.jpeg");
-  background-size: 100% auto;
-  background-position: center top;
-  background-repeat: no-repeat;
+.panel-heading {
+  font-size: 5vw;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+.panel-copy {
+  font-size: 3vw;
+  line-height: 1.5;
+  padding: 15vw 4vw;
+}
+
+.panel-copy p {
+  padding: 5vw 0;
+}
+
+.panel-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.panel-content:nth-child(3) figcaption {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+}
+
+.caption-heading {
+  padding: 7vw;
+  line-height: 1.5em;
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .panel-content {
+    flex-wrap: nowrap;
+    padding: 5vw 0;
+  }
+  .panel-content:nth-child(1) {
+    height: 23vw;
+  }
+
+  .panel-content:nth-child(2) {
+    flex-direction: row-reverse;
+    height: 28vw;
+  }
+
+  .panel-content:nth-child(3) {
+    height: 20vw;
+  }
+
+  .panel-heading {
+    font-size: 2vw;
+    line-height: 1.3;
+    font-weight: 900;
+  }
+
+  .panel-copy {
+    font-size: 1vw;
+    padding: 1vw 4vw;
+  }
+
+  .panel-copy p {
+    padding: 1.5vw 0;
+  }
+
+  .panel-media img {
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .panel-content:nth-child(3) figcaption {
+    width: 25%;
+    text-align: center;
+  }
+
+  .caption-heading {
+    padding: 3vw 4vw;
+    line-height: 1.5em;
+    font-size: 1.6vw;
+  }
 }
