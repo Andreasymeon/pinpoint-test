@@ -1,0 +1,93 @@
+/* Global variables */
+:root {
+  --white: #fff;
+  --black: #000;
+  --main-green: #2fa38d;
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+}
+
+.btn {
+  background-color: var(--main-green);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 30%);
+}
+
+.btn-arrow {
+  border: solid var(--white);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left: 3em;
+  margin-bottom: 1px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.site-content {
+  padding: 0 225px;
+}
+
+/* Hero */
+.hero-container {
+  width: 100vw;
+  background-image: url("../images/team-pooltable.webp");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 26vw 0;
+  text-shadow: 0 1px 0 black;
+}
+
+.hero-heading {
+  width: 100vw;
+  font-size: 4vw;
+  font-weight: 600;
+  text-align: center;
+  color: var(--white);
+  padding-bottom: 5vw;
+  text-shadow: 2px 2px 5px black;
+}
+
+.btn-hero {
+  width: 160px;
+  height: 50px;
+  box-shadow: -50px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Reviews */
+.reviews-container {
+  text-align: center;
+}
+
+/* Testimonials */
+.testimonials-container {
+  background-image: url("../images/man.jpeg");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
