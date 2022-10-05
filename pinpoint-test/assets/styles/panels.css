@@ -1,7 +1,6 @@
 .panels-container {
   display: flex;
   flex-direction: column;
-  padding: 5vw 0;
 }
 
 .panel-content {
@@ -72,7 +71,7 @@
 
   .panel-copy {
     font-size: 1vw;
-    padding: 1vw 4vw;
+    padding: 0 4vw;
   }
 
   .panel-copy p {
