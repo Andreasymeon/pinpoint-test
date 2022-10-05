@@ -58,6 +58,12 @@ section {
   padding: 0 10vw;
 }
 
+.caption figcaption {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+}
+
 /* Desktop */
 @media (min-width: 1000px) {
   .site-content {
