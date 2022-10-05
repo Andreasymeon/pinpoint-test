@@ -1,0 +1,15 @@
+.panels-container {
+  display: flex;
+  flex-direction: column;
+}
+.panel-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-media {
+  background-image: url("../images/woman.jpeg");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}

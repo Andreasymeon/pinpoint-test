@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/header.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/panels.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+
   </head>
   <body>
     <!-- Header -->
@@ -41,7 +44,7 @@
                 </ul>
             </div>
             <div class="cta">
-                <button class="nav-btn">View Jobs</button>
+                <button class="nav-btn btn">View Jobs</button>
                 <div class="burger-menu">
                     <div class="line"></div>
                     <div class="line"></div>
@@ -50,10 +53,13 @@
             </div>
         </nav>
     </header>
+
     <!-- Hero heading -->
     <div class="hero-container">
-        <div class="hero-heading">Find your next job with GoCo</div>
-        <button>Go for it</button>
+        <div class="hero-content">
+            <div class="hero-heading">Find your next job with GoCo</div>
+            <button class="btn-hero btn">Go for it<span class="btn-arrow"></span></span></button>
+        </div>
     </div>
 
     <div class="site-content">
@@ -62,23 +68,25 @@
             
             <article class="panel-content">
                 <div class="panel-copy">
-                    <h2 class="panel-heading">Join us as we save time
+                    <h1 class="panel-heading">Join us as we save time
                         and money for people
-                        everywhere</h2>
+                        everywhere</h1>
                     <p>Since 2006, we've been disrupting the insurance industry to save millions of
                         people masses of money. We're looking for talented, ambitious and friendly
                         faces to help us achieve our mission. We have a wide range of roles across
                         GoCo as we're constantly growing. So, if you've got the skills and passion,
                         we want to hear from you!</p>
-                    <button class="panel-button">Who we are</button>
+                    <button class="panel-button btn">Who we are</button>
                 </div>
-                <div class="panel-media"></div>
+                <div class="panel-media">
+                    <img src="assets/images/logos-grid.png" alt="GoCo group logo (incl. GoCompare, Woflip, godemand, Look After My Bills, MyVoucherCodes, GoCo Group).">
+                </div>
             </article>
 
             <article class="panel-content">
                 <div class="panel-copy">
-                    <h2 class="panel-heading">Collaborate, innovate
-                        and be proud</h2>
+                    <h1 class="panel-heading">Collaborate, innovate
+                        and be proud</h1>
                     <p>We want every member of staff to be happy, healthy and successful with us.
                         This is the case whether they're in our office or working from home (which
                         we've all been doing throughout the COVID-19 pandemic). Get ready to be
@@ -86,43 +94,48 @@
                         what's been done before and to give things your best shot. Our staff are at
                         the heart of everything we do, so we'll support you at every step of your
                         GoCo journey.</p>
-                    <button class="panel-button">#LifeatGoCo</button>
+                    <button class="panel-button btn">#LifeatGoCo</button>
                 </div>
-                <div class="panel-media"></div>
+                <div class="panel-media">
+                    <img src="assets/images/team.jpeg" alt="Team celebrating.">
+                </div>
             </article>
 
             <article class="panel-content">
                 <div class="panel-copy">
-                    <h2 class="panel-heading">Grow your GoCo career</h2>
+                    <h1 class="panel-heading">Grow your GoCo career</h1>
                     <p>We don't sit still, so neither should you have to. We strive to help our staff
                         further their careers, find enjoyment in what they do and upskill their
                         abilities. If you're interested in embetterment through things like on-the-
                         job degree programmes, mentorship sessions, career change schemes
                         and personal development plans, you'll love what we have to offer.</p>
-                    <button class="panel-button">Employee journeys</button>
+                    <button class="panel-button btn">Employee journeys</button>
                 </div>
                 <div class="panel-media">
+                    <!-- <img src="assets/images/women.jpeg" alt="Female employee smilling."> -->
                     <figcaption>
-                        <h3 class="caption-heading">Follow Emma's journey to rinding her place at GoCo</h3>
-                        <button class="caption-button">Read</button>
+                        <h2 class="caption-heading">Follow Emma's journey to rinding her place at GoCo</h2>
+                        <button class="caption-button btn">Read</button>
                     </figcaption>
                 </div>
             </article>
-            
         </section>
+
         <!-- Reviews -->
         <section class="reviews-container">
-            <h3 class="review-quote">"Dynamic, industry-leading environment with great benefits'</h3>
+            <img src="assets/images/glassdoor_logotype.png" alt="Glassdoor logo.">
+            <h2 class="review-quote">"Dynamic, industry-leading environment with great benefits'</h2>
             <p class="review-author">Former Employee, Content Specialist in Newport, Wales
             </p>
             <p class="review-descr">A selected review from Glassdoor, October 2020.</p>
-            <button class="glassdoor-btn">More Reviews</button>
+            <button class="glassdoor-btn btn">More Reviews</button>
         </section>
 
         <!-- Testimonials -->
         <section class="testimonials-container">
+            <!-- <img src="assets/images/man.jpeg" alt="Male employee."> -->
             <figcaption>
-                <h2 class="testimonial-quote">"We support our people not only through their professional development but also with their work-life balance, health and wellbeing."</h2>
+                <h1 class="testimonial-quote">"We support our people not only through their professional development but also with their work-life balance, health and wellbeing."</h1>
                 <p class="testimonial-author">Alex Currie</p>
                 <p class="testimonial-descr">Chief People Officer</p>
             </figcaption>
@@ -131,13 +144,13 @@
         <!-- Career call to action -->
         <section class="career-cta">
             <div class="cta-container">
-                <h3 class="cta-heading">Find out what's in it for you</h3>
-                <button class="cta-btn">Find out more</button>
+                <h2 class="cta-heading">Find out what's in it for you</h2>
+                <button class="cta-btn btn">Find out more</button>
             </div>
             <div class="cta-container">
-                <h3 class="cta-heading">Thinking about applying
-                    for a iob?</h3>
-                <button class="cta-btn">Search Jobs</button>
+                <h2 class="cta-heading">Thinking about applying
+                    for a iob?</h2>
+                <button class="cta-btn btn">Search Jobs</button>
             </div>
             <div class="dicslaimer">We hire our talent directly. No recruitment agencies, sorry.</div>
         </section>
@@ -163,7 +176,7 @@
                     <a class="link" href="#">Privacy policy</a>
                 </li>
                 <li class="links-item">
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    <!-- <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.<path d="M416 32h21.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a> -->
                 </li>
                 <li class="links-item">
                     <a class="link" href="#">Powered by Pinpoint</a>
