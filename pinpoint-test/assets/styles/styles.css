@@ -21,6 +21,8 @@ body {
 }
 
 .btn {
+  height: 40px;
+  width: 160px;
   background-color: var(--main-green);
   color: var(--white);
   border: none;
@@ -41,8 +43,12 @@ body {
   -webkit-transform: rotate(-45deg);
 }
 
+.panel-content:nth-child(3) .btn-arrow {
+  margin-left: 0.5em;
+}
+
 .site-content {
-  padding: 0 225px;
+  padding: 0 10vw;
 }
 
 /* Hero */
@@ -59,24 +65,18 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 26vw 0;
+  padding: 25vw 0 15vw;
   text-shadow: 0 1px 0 black;
 }
 
 .hero-heading {
   width: 100vw;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: 600;
   text-align: center;
   color: var(--white);
-  padding-bottom: 5vw;
-  text-shadow: 2px 2px 5px black;
-}
-
-.btn-hero {
-  width: 160px;
-  height: 50px;
-  box-shadow: -50px 0px rgba(0, 0, 0, 0.5);
+  padding: 2vw;
+  text-shadow: 2px 2px 10px black;
 }
 
 /* Reviews */
@@ -90,4 +90,19 @@ body {
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  /* .btn {
+    height: 50px;
+    width: 160px;
+  } */
+  .site-content {
+    padding: 0 13.7vw;
+  }
+
+  .hero-heading {
+    font-size: 2.5vw;
+  }
 }
