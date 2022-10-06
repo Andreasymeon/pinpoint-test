@@ -1,4 +1,4 @@
-# pinpoint dev technical test
+# Pinpoint dev technical test
 
 - Using only HTML, CSS & vanilla Javascript please replicate this page design
 
