@@ -12,7 +12,6 @@
 
 .cta-heading {
   padding: 10vw 5vw;
-  /* font-size: 5vw; */
 }
 
 .cta-btn {
@@ -21,9 +20,10 @@
 
 .disclaimer {
   font-weight: bold;
-  padding: 10vw 0 0;
+  padding: 20vw 0 0;
 }
 
+/* Large screen */
 @media (min-width: 700px) {
   .cta-container {
     width: 45%;
@@ -41,5 +41,3 @@
     justify-content: space-between;
   }
 }
-
-/* Large screen */
